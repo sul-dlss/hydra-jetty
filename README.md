@@ -66,3 +66,7 @@ If you want a bleeding edge version of fedora4, you can:
 * Follow its build instructions in the `README to build the war project
 * Copy the new warfile from `{your_local_fcrepo4_dir}/fcrepot-webapp/target/fcrepo-webapp-4.0.0-beta-04-SNAPSHOT.war` to `{your_local_hydra_jetty_dir}/webapps`
 * Commit the project, then push to github
+
+##### Build Fedora4 with Slashless Identifiers
+* Replace `fcrepo-webapp/src/main/resources/spring/minter.xml` with the version in `resources/minter.xml`
+* Build fedora4
