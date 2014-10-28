@@ -11,3 +11,6 @@ derby.log
 jettywrapper.log
 velocity.log*
 *.log
+
+# Build artifacts
+dist
